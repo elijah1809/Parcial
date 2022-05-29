@@ -109,7 +109,7 @@ resource "digitalocean_droplet" "myblog2" {
             ANSIBLE_HOST_KEY_CHECKING = "False" 
         }
 
-        working_dir = "/Users/gvaldez/devops/parcial/wordpress_automate/playbooks/"
+        working_dir = "/Users/gvaldez/devops/parcial/Parcial-Wordpress/playbooks/"
         command     = "ansible-playbook -u root --private-key ${var.ssh_key_private2} -i ${self.ipv4_address}, wordpress_playbook.yml"
     }
 }

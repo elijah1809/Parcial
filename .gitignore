@@ -1,0 +1,16 @@
+# Security
+*.pem
+
+# Compiled files
+*.tfstate
+*.tfstate.*
+
+# Module directory
+.terraform/
+
+# local variable files
+*.tfvars
+*.plan
+
+# Ansible temp files
+*.retry

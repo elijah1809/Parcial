@@ -9,7 +9,6 @@
 .terraform/
 
 # local variable files
-*.tfvars
 *.plan
 
 # Ansible temp files
